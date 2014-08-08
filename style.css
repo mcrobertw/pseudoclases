@@ -1,0 +1,59 @@
+.container{
+	width: 750px;
+	margin: auto;
+}
+
+li{
+	float: left;
+	list-style: none;
+	width: 180px;
+	height: 180px;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	background: #585858;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	line-height: 180px;
+
+}
+
+/*li:first-child{
+	background: green;
+}
+
+li:last-child{
+	background: blue;
+}
+
+li:nth-child(5){
+	background: yellow;
+}*/
+
+/*li:nth-child(3n){
+	background: olive;
+}
+
+li:nth-child(3n+1){
+	background: peru;
+}
+
+li:nth-child(3n+2){
+	background: magenta;
+}*/
+
+li:first-child{
+	border-radius: 50px;
+}
+
+li:first-of-type{
+	background: red;
+}
+
+.nav:first-child{ /*No es el primer hijo de un tipo concreto*/
+	border-radius: 50%;
+}
+
+.nav:first-of-type{ 
+	border-radius: 50%;
+}
